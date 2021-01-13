@@ -12,8 +12,16 @@
     <script>
       const display = document.getElementById("display")
       const button = document.getElementById("button")
+      let count = 0
+
       button.onclick = function() {
-        display.textContent = "クリックされた！！"
+        count += 1
+        display.textContent = count
+        display.style.color = "red"
+      }
+
+      window.onload = function(e) {
+        console.dir(e)
       }
     </script>
   </body>
