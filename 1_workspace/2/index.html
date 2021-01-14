@@ -12,16 +12,13 @@
     </div>
 
     <script>
-      // 追加先の要素を取得
       const cardsContainer = document.getElementById("cards-container")
 
-      // 追加するdiv要素を作成
       const card = document.createElement("div")
+      card.textContent = "おはよう"
       card.className = "card"
-      card.textContent = "こんばんは"
 
-      // ③beforeendの位置に要素を追加する
-      cardsContainer.insertAdjacentElement("beforeend", card)
+      cardsContainer.prepend(card)
     </script>
   </body>
 </html>
