@@ -10,19 +10,11 @@
     <div id="display">ここに何かが表示される</div>
     <button id="button">クリック!！！</button>
     <script>
-      const display = document.getElementById("display")
-      const button = document.getElementById("button")
-      let count = 0
-
-      button.onclick = function() {
-        count += 1
-        display.textContent = count
-        display.style.color = "red"
-      }
-
-      window.onload = function(e) {
-        console.dir(e)
-      }
+      var d = { name: "Ronald", number: 7, nation: "Portugal" }
+      var json = JSON.stringify(d)
+      console.log(json)
+      var d = JSON.parse(json)
+      console.log(d)
     </script>
   </body>
 </html>
