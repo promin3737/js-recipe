@@ -14,13 +14,18 @@
     <div class="main-container">
       <div class="list-container">
         <div class="list-header">ギークサロン</div>
-        <div class="cards-container" id="cards-container1">
+        <div class="cards-container" id="cards-container">
           <!-- ここにカードを追加する -->
         </div>
         <div class="list-footer">
           <div class="input-container">
-            <input type="text" class="input-todo" id="input-todo1" />
-            <div class="input-button" id="add-button1">追加</div>
+            <input
+              type="text"
+              class="input-todo"
+              id="input-todo"
+              onkeypress="enter();"
+            />
+            <div class="input-button" id="add-button">追加</div>
           </div>
         </div>
       </div>
@@ -36,13 +41,7 @@
             <div class="delete"></div>
           </div>
         </div>
-        <div class="cards-container" id="cards-container2"></div>
-        <div class="list-footer">
-          <div class="input-container">
-            <input type="text" class="input-todo" id="input-todo2" />
-            <div class="input-button" id="add-button2">追加</div>
-          </div>
-        </div>
+        <div class="list-footer">＋カードを追加</div>
       </div>
       <div class="list-container">
         <div class="list-header">家事</div>
@@ -56,13 +55,7 @@
             <div class="delete"></div>
           </div>
         </div>
-        <div class="cards-container" id="cards-container3"></div>
-        <div class="list-footer">
-          <div class="input-container">
-            <input type="text" class="input-todo" id="input-todo3" />
-            <div class="input-button" id="add-button3">追加</div>
-          </div>
-        </div>
+        <div class="list-footer">＋カードを追加</div>
       </div>
     </div>
     <script src="main.js"></script>
