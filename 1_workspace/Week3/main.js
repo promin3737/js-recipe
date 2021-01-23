@@ -4,8 +4,8 @@ const container = document.getElementById("container")
 
 let list = []
 //localstrorageからオブジェクトに変換
-if(localStorage["list"]){
-  list = JSON.parse(localStorage["list"])
+if(localStorage.list){
+  list = JSON.parse(localStorage.list)
 }
 
 
