@@ -4,9 +4,9 @@ const container = document.getElementById("container")
 
 //listという名の配列を作成
 let list = []
-//localstrorageからオブジェクトに変換しないとJSに使えないためJSON形式から変更する
+//localstrorageからオブジェクトに変換しないとJSで使えないためJSON形式から変更する
 if(localStorage.list){
-  list = JSON.parse(localStorage.list)
+  list = JSON.parse(localStorage.list)//なぜJSON.parseを実行しないとlocalStorageに保存した値が表示されないのか？
 }
 
 //配列listの要素の数に合わせて保存できるようにする
@@ -22,7 +22,7 @@ for(let i = 0; i < list.length; i++){
 addButton.onclick = function(){
   const card = document.createElement("div")
   card.textContent = inputElement.value
-  container.append(card)
+  container.append(card)//なぜここでも同じcardを作るプログラムが書かれているのか？
 
   //配列listに入力した値を放り込む
   list.push(inputElement.value)
@@ -33,4 +33,3 @@ addButton.onclick = function(){
   //連続して値を入力しやすいように入力する欄を空にする
   inputElement.value = ''
 }
-
