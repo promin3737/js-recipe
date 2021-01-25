@@ -52,24 +52,30 @@ if (localStorage.list) {
   }
 }
 
+
+
+
+
+
+
 // splice を使って、n 番目から m 個を list から取り除くことができる
 // array.splice(n, m)
 ​
-const list = ["aa", "bb"]
-list.splice(0, 1)
-console.log(list) // ["bb"]
+//const list = ["aa", "bb"]
+//list.splice(0, 1)
+//console.log(list) // ["bb"]
 ​
 // テキストの情報をもつオブジェクトを配列に入れる
-const list = [
-  {
-    text: "aa",
-    id: 123,
-  },
-  {
-    text: "bb",
-    id: 456,
-  },
-]
+//const list = [
+//  {
+//    text: "aa",
+//    id: 123,
+//  },
+//  {
+//    text: "bb",
+//    id: 456,
+//  },
+//]
 ​
 // 配列から条件をもとにインデックス番号を教えてくれるメソッド findIndex を使う（ここが難しい）
 // 引数には、配列の要素を受け取って true/false を返す関数をいれる
