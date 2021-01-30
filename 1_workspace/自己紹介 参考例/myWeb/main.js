@@ -3,6 +3,7 @@ const loveButton = document.getElementById("love-button")
 const lovecount = document.getElementById("love-count")
 
 let counter = 0
+// フレーズの入力
 const phrase = [
   "どうせやらせだろ",
   "本当に？",
