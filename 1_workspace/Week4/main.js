@@ -1,3 +1,4 @@
+// 自動販売機作成
 const cokeButton = document.getElementById("coke")
 const waterButton = document.getElementById("water")
 const addMoneyButton = document.getElementById("add-money")
