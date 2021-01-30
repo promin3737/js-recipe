@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("unnamed.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.all {
+  height: 70%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 500%;
+  font-weight: 600;
+}
+
+.profile {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.love {
+  display: flex;
+  justify-content: space-between;
+}
