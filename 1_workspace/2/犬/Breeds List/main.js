@@ -1,3 +1,4 @@
+// Dog API
 const inputDog = document.getElementById("inputDog")
 const imageElement = document.getElementById("dog-image")
 const fetchImage = document.getElementById("button1")
