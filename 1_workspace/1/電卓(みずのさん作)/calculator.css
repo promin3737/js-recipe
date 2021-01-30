@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-bottom: 100px;
+}
+
+.denntaku {
+  margin: 20px;
+  font-size: large;
+}
+
+.display {
+  margin: 20px;
+}
+
+.same-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.calc-button {
+  background-color: orange;
+  color: azure;
+}
+
+.onclick-button {
+  background-color: azure;
+  color: orange;
+}
+
+.number-button {
+  background-color: black;
+  color: azure;
+}
+
+.zero-button {
+  width: 225px;
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.comment {
+  margin-top: 50px;
+  margin-left: 20px;
+}
