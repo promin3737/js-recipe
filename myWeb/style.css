@@ -1,1 +1,125 @@
-/* レイアウト考え中 */
+html {
+  height: 100%;
+  width: 100%;
+}
+.header {
+  height: 40px;
+  padding: 10px 15px;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+#slideshow {
+  height: 620px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url(tourou_JPG.jpg);
+  background-size: cover;
+  transition: background-image 2.5s ease;
+  opacity: 0.7;
+}
+
+h2 {
+  margin-top: 80px;
+  margin-left: 30px;
+  color: white;
+  font-size: 30px;
+}
+
+h1 {
+  margin-top: 80px;
+  color: white;
+  font-size: 100px;
+  text-align: center;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-left: 30px;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+.instagram {
+  background-color: crimson;
+  font-weight: 600;
+  margin-left: 50px;
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  font-size: large;
+  box-shadow: 0 7px #000000;
+}
+
+.btn:active {
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+}
+.btn:hover {
+  opacity: 1;
+}
+
+.self-wrapper {
+  margin-top: 50px;
+  height: 250px;
+  text-align: center;
+}
+
+.font-large {
+  font-size: 20px;
+}
+
+.hobby1 {
+  float: left;
+  margin-right: 27px;
+  width: 32%;
+  background-color: rgba(126, 228, 223, 0.671);
+  color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.hobby2 {
+  float: left;
+  margin-right: 27px;
+  width: 32%;
+  background-color: rgba(126, 228, 223, 0.671);
+  color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.club {
+  float: left;
+  width: 32%;
+  background-color: rgba(126, 228, 223, 0.671);
+  color: black;
+  border-radius: 20px;
+  opacity: 0.8;
+}
+
+.hobby1:hover {
+  opacity: 1;
+}
+
+.hobby2:hover {
+  opacity: 1;
+}
+
+.club:hover {
+  opacity: 1;
+}
