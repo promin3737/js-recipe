@@ -1,3 +1,4 @@
+// .eslintrc.js
 module.exports = {
   env: {
     browser: true,
@@ -7,5 +8,8 @@ module.exports = {
   plugins: ["eslint-plugin-html"],
   parserOptions: {
     ecmaVersion: 2018,
+  },
+  globals: {
+    Vue: true,
   },
 }
