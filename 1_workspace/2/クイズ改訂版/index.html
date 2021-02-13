@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="quiz-container">
+      <h2 id="quiz-text">{{quizText}}</h2>
+      <img v-bind:src="quizImage" />
+      <div id="choices-container">
+        <button v-on:click="displayQuiz">問題を表示</button>
+        <button v-on:click="choice1">ゴリアテ</button>
+        <button v-on:click="choice2">ゼニガメ</button>
+        <button v-on:click="choice3">ガニメデ</button>
+        <button v-on:click="choice4">ソラーテ</button>
+      </div>
+      <div id="feedback">{{feedback}}</div>
+      <!-- <button v-on:click="next-quiz">次の問題へ</button> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
