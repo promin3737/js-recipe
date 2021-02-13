@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="app">
+      <div>{{totalMoney}}</div>
+      <div>{{total}}</div>
+      <div v-for="item in items">{{item}}</div>
+      <button v-on:click='buyItem("コーラ")'>コーラ</button>
+      <button v-on:click='buyItem("お茶")'>お茶</button>
+      <input v-model="inputMoney" />
+      <button v-on:click="insertMoney">お金を入れる</button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
